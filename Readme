@@ -1,5 +1,4 @@
-# 🎧 Decoding the Beat
-### A Data-Driven Insight into Spotify's Recommendation System
+🎧 Decoding the Beat: A Comprehensive Look into Spotify's Algorithmic Recommendation System through Data Analysis.
 
 This project explores Spotify's track features to understand the foundations of its music recommendation algorithm. Using data cleaning, feature engineering, and exploratory data analysis (EDA), we derive meaningful insights from audio characteristics and genre distributions.
 
