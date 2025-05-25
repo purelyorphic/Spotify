@@ -1,0 +1,76 @@
+# 🎧 Decoding the Beat
+### A Data-Driven Insight into Spotify's Recommendation System
+
+This project explores Spotify's track features to understand the foundations of its music recommendation algorithm. Using data cleaning, feature engineering, and exploratory data analysis (EDA), we derive meaningful insights from audio characteristics and genre distributions.
+
+---
+
+## 📂 Dataset
+
+- **File:** `SpotifyFeatures.csv`
+- **Source:** [Kaggle - Spotify Dataset](https://www.kaggle.com/datasets)
+- **Size:** ~200 tracks (sampled for analysis)
+- **Features Include:**
+  - Danceability, Energy, Tempo, Valence, Loudness
+  - Speechiness, Acousticness, Instrumentalness, Liveness
+  - Genre (categorical)
+
+---
+
+## 🎯 Project Objectives
+
+- Clean and preprocess Spotify track-level data
+- Engineer relevant features (genre encoding, outlier removal)
+- Perform summary statistics and visualization
+- Extract insights into what influences recommendations
+- Lay the groundwork for future machine learning models
+
+---
+
+## 🛠️ Tools & Technologies
+
+- **Language:** Python
+- **Libraries:**
+  - `pandas`, `numpy` for data processing
+  - `matplotlib`, `seaborn` for visualizations
+  - `scikit-learn` for preprocessing tasks
+
+---
+
+## 🧪 Notebooks
+
+- [`Spotify_EDA_Analysis_Notebook.ipynb`](Spotify_EDA_Analysis_Notebook.ipynb): Jupyter notebook for complete analysis, visualizations, and statistical summaries.
+
+---
+
+## 📈 Visual Outputs
+
+- **Genre Distribution**: Bar chart showing genre frequencies
+- **Correlation Heatmap**: Relationship between audio features
+- **Summary Statistics**: Central tendencies and feature ranges
+
+---
+
+## 📊 Data Preprocessing Steps
+
+1. Removed unnecessary columns (`track_id`, `track_name`, `artist_name`)
+2. Dropped null values and duplicates
+3. Encoded genres via one-hot encoding
+4. Treated outliers using IQR for the `tempo` feature
+
+---
+
+## 🔍 Key Insights
+
+- Pop and Electronic genres dominate the dataset
+- Strong correlation between Energy and Loudness
+- Tempo and Valence exhibit wide variability across genres
+
+---
+
+## 🚀 How to Run
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/spotify-recommender-eda.git
+   cd spotify-recommender-eda
